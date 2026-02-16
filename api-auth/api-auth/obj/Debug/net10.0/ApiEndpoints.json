@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "api_auth.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "api_auth.UserAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+services:
+  auth-service:
+    image: mi-api-auth
+    ports:
+      - "7171:8080"
+
+  gateway-service:
+    image: mi-api-gateway
+    ports:
+      - "7082:8080"
+    depends_on:
+      - auth-service
