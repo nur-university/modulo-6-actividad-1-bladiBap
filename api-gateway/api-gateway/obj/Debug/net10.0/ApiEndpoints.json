@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "api_gateway.Controllers.HelloController",
+    "Method": "Login",
+    "RelativePath": "Hello/hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
